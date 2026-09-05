@@ -113,7 +113,7 @@ The ingestion Lambda is configured for the following ten regions by default:
 
 ## Data Dictionary
 
-See [`docs/data-dictionary.md`](docs/data-dictionary.md) for the Bronze, Silver, and Gold schemas, including column definitions, data types, dataset purposes, and partitioning details.
+See [`docs/data-dictionary.md`](docs/data_dictionary.md) for the Bronze, Silver, and Gold schemas, including column definitions, data types, dataset purposes, and partitioning details.
 
 ## Analytics
 
