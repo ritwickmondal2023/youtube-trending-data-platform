@@ -227,21 +227,10 @@ It expects the historical CSV and category JSON files to be present in the worki
 
 ## Validation and Evidence
 
-Selected AWS console screenshots, Data Quality execution output, and Athena analytical query results are included in the repository under [`screenshots/`](screenshots/) and [`docs/`](docs/).
+Selected AWS console screenshots, Data Quality execution output, and Athena analytical query results are included in the repository under [`docs/`](docs/).
 
 The evidence covers the major stages of the pipeline, including ingestion, storage, transformation, data-quality validation, orchestration, analytical querying, and notification configuration.
 
-## Future Enhancements
-
-Potential extensions include:
-
-- EventBridge scheduling
-- Configuration-driven multi-region processing
-- Stronger incremental and idempotent processing semantics
-- More comprehensive data-quality metrics
-- Dashboarding
-- Automated testing
-- Infrastructure-as-code and CI/CD
 
 ## References
 
