@@ -32,8 +32,6 @@ MANIFEST
 venv/
 env/
 ENV/
-.env/
-.env.*
 
 # Python packaging / tooling
 .pytest_cache/
@@ -50,13 +48,12 @@ htmlcov/
 # Secrets & Local Configuration
 # ==========================================
 
+.env
+.env.*
+
 *.pem
 *.key
 *.crt
-
-# Environment files
-.env
-.env.*
 
 # Local AWS credentials/config
 .aws/
@@ -91,13 +88,42 @@ htmlcov/
 # ==========================================
 
 *.csv
-*.json
 *.parquet
+
+# ==========================================
+# Documents
+# ==========================================
+
+*.doc
+*.docx
+*.pdf
+
+# ==========================================
+# Images
+# ==========================================
+
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.svg
 
 # Keep project configuration examples
 !config/
 !config/*.env.example
 !config/*_example.env
+
+# Keep project architecture images
+!architecture/
+!architecture/*.png
+
+# Keep project evidence screenshots
+!screenshots/
+!screenshots/*.png
+!screenshots/*.jpg
+!screenshots/*.jpeg
 
 # ==========================================
 # AWS / Deployment Artifacts
