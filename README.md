@@ -1,18 +1,16 @@
-# YouTube Data Engineering Pipeline on AWS
+# YouTube Trending Data Platform
 
-> **AWS Data Engineering Portfolio Project**
+A production-oriented AWS data engineering pipeline designed to transform YouTube trending-video data into curated, analytics-ready datasets. The platform implements layered data processing, data-quality validation, workflow orchestration, and SQL-based analytics across regions, channels, and content categories.
 
-An end-to-end AWS data engineering pipeline for ingesting YouTube trending-video data, transforming it through Bronze, Silver, and Gold layers, applying data-quality gates, and exposing curated analytical datasets through Amazon Athena.
+## Analytical Objective
 
-The project is centered on the following analytical objective:
-
-> **How does YouTube trending behaviour vary across regions, channels, and content categories, and how can a cloud-native data pipeline support that analysis?**
+The platform supports analysis of YouTube trending-video behaviour across regions, channels, and content categories, with the underlying data pipeline designed to provide reliable, curated datasets for analytical workloads.
 
 ## Why This Project
 
-This project is designed as a technical case study rather than a collection of isolated AWS service demonstrations. The architecture supports a complete analytical workflow: collect trending data, preserve source-oriented records, standardize and clean the datasets, validate data quality, create analysis-ready Gold datasets, and query those datasets using SQL.
+The platform is designed as an end-to-end data engineering case study, integrating multiple AWS services to support a complete analytical data workflow. The pipeline ingests YouTube trending data, preserves source-oriented records, standardizes and cleans the datasets, validates data quality, produces analysis-ready Gold datasets, and makes them available for SQL-based analysis.
 
-The implementation demonstrates how multiple AWS services can be combined into a coherent data engineering platform with clear separation of storage, transformation, quality validation, orchestration, and analytics responsibilities.
+The implementation demonstrates how AWS services can be integrated into a cohesive data engineering platform, with clear separation of responsibilities across data storage, transformation, quality validation, workflow orchestration, and analytics.
 
 ## Architecture
 
