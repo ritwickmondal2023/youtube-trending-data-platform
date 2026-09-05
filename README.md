@@ -16,7 +16,7 @@ The implementation demonstrates how multiple AWS services can be combined into a
 
 ## Architecture
 
-![Architecture](architecture/architecture.png)
+![Architecture](architecture/architecture_diagram.png)
 
 ### Core Data Flow
 
