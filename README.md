@@ -92,7 +92,7 @@ The resulting quality report is evaluated by AWS Step Functions. A successful va
 
 ## Orchestration
 
-![Orchestration](architecture/orchestration.png)
+![Orchestration](architecture/orchestration_diagram.png)
 
 The Step Functions workflow contains:
 
