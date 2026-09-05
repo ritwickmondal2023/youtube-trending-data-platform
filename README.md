@@ -151,7 +151,7 @@ Object-level:  arn:aws:s3:::<BUCKET_NAME>/*
 
 `ListBucket` is a bucket-level action, while object operations such as `GetObject` and `PutObject` use the object ARN.
 
-The repository uses placeholders instead of real API keys, credentials, or private configuration. See [`docs/iam-security.md`](docs/iam-security.md) for the security and permission model.
+The repository uses placeholders instead of real API keys, credentials, or private configuration. See [`docs/iam-security.md`](docs/iam_security.md) for the security and permission model.
 
 ## Troubleshooting Highlights
 
